@@ -5,11 +5,7 @@ secrets/
 # ignora un archivo llamado "hidden.txt" ubicado en la raíz de tu directorio de trabajo
 /hidden.txt
 # ignora un directorio llamado "css" ubicado en la raíz de tu directorio de trabajo
-/css/
-# ignora un directorio llamado "fonts" ubicado en la raíz de tu directorio de trabajo
-/fonts/
-# ignora un directorio llamado "img" ubicado en la raíz de tu directorio de trabajo
-/img/
+/ccs2/
 # ignora cualquier archivo con extensión .png
 *.png
 # ignora cualquier archivo o directorio que comienza con "cache", como cache-file-01, cached_assets/, etc.copy
