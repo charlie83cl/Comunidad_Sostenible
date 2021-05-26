@@ -5,5 +5,8 @@ luego se subio al repositorio publico https://github.com/charlie83cl/PruebaHtml
 y se protegio con un archivo .gitignore
 
 gracias por leer esto! espero que la pagina te guste.
+<<<<<<< HEAD
 
 Hola yo de nuevo. voy a modificar para crear comentarios y ver si puede servir
+=======
+>>>>>>> b84f8f40629e7532257747fc8cf09478e70905c0

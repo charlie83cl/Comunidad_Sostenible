@@ -5,7 +5,11 @@ secrets/
 # ignora un archivo llamado "hidden.txt" ubicado en la raíz de tu directorio de trabajo
 /nombre_de_archivo.txt
 # ignora un directorio llamado "css" ubicado en la raíz de tu directorio de trabajo
+<<<<<<< HEAD:.gitignore.txt
 /nombre_de_carpeta/
+=======
+/ccs2/
+>>>>>>> b84f8f40629e7532257747fc8cf09478e70905c0:.gitignore
 # ignora cualquier archivo con extensión .png
 *.png
 # ignora cualquier archivo o directorio que comienza con "cache", como cache-file-01, cached_assets/, etc.copy
