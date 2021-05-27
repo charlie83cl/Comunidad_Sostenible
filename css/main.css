@@ -3,9 +3,15 @@
  margin: 0px auto;   
  padding: 0px auto;
 }
+.fondo{
+    width: 1700px;
+    height: 4400px;
+    background-color: rgb(224, 231, 231);
+}
 .container{
     width: 1024px;
-    height: 3072px;
+    height: 4200px;
+    background-color: white;
     
 }
 .banner{
@@ -27,7 +33,6 @@
     text-align: center;
     }   
     .navbar li{
-        color: rgb(0, 4, 255);
         display: inline-block;
         margin-top: 30px;
         margin-left: 15px;
@@ -36,14 +41,6 @@
 .mainbanner{
     width: 1024px;
     height: 350px;
-    background-image: url('/img/semilla.jpg');
-    background-size: cover;
-    background-position: center;    
-}
-.mainbanner img{
-    width: 1024px;
-    height: 350px;
-    background-color: aquamarine;
     background-image: url('/img/semilla.jpg');
     background-size: cover;
     background-position: center;    
@@ -61,6 +58,7 @@
     width: 1024px;
     height: 300px;
     display: inline-block;
+    background-color: rgb(255, 255, 255);
 }
 .modulo{
     margin-left: 55px;
@@ -85,9 +83,9 @@
     }
 .main{
     width: 1024px;
-    height: 300px;
+    height: 355px;
     display: inline-block;
-    outline: 2px blue dotted;
+    background-color: white;
     }
 .bannermain{
     width: 512px;
@@ -97,8 +95,7 @@
     .bannermain img{
         width: 512px;
         height: 300px;
-
-        }
+    }
 .textmain{
     width: 508px;
     height: 300px;
@@ -114,20 +111,26 @@
         margin-top: 40px;
         display: inline-block;
     }
+    .textmain h2{
+        color: white;
+    }
     .textmain p{
         font-size: medium;
         display: inline-block;
         width: 400px;
+        color: white;
     }
+    /** aca comienza SERVICIOS**/
 .bajocentro{
     width: 1024px;
     height: 800px;
+    background-color: white;
 }
     .titulo1{
         width: 1024px;
         text-align: center;
         vertical-align: top;
-        margin-top: 20px;
+        
     }
     .titulo1 p{
         margin-top: 20px;
@@ -136,7 +139,6 @@
     width: 1024px;
     height: 720px;
     display: inline-block;
-    outline: 4px dotted purple;
     text-align: center;
 }
 .logos{
@@ -146,44 +148,58 @@
     text-align: center;
     width: 300px;
     height: 300px;
-    outline: 2px dotted black;
     display: inline-block;
 }
+/**aca comienza PROYECTOS**/
 .proyectos{
     margin-top: 40px;
     width: 1024px;
-    height: 800px;
-    display: inline-block;
+    height: 820px;
+    background-color: rgb(126, 172, 126);
 }
+    
+/**esta clase titulocentro la uso en varias otras no editar sin revisar**/
+
 .titulocentro{
     text-align: center;
     margin-top: 50px;
 }
+/**dejen titulo centro asi nomas espara centrar titulos dah obvio**/
+.titulocolor{
+    color: white;
+}
 .portatexto{
     width: 1024px;
-    height: 600px;
+    height: 300px;
     display: inline-block;
     margin-top: 30px;
     text-align: left;
 }
     .portatexto img{
-        width: 500px;
+        width: 450px;
         height: 300px;
         display: inline-block;
+        margin-left: 50px;
     }
 .parraf{
-    width: 500px;
+    width: 400px;
     height: 300px;
     vertical-align: top;
     display: inline-block;
+    margin-left: 25px;
+    color: white;
 }    
     .parraf p{
         margin-top: 20px;
     }
+/**aca comienza EQUIPO**/
 .equipo{
-    width: auto;
+    width: 1024px;
     height: auto;
-    outline: black dotted 5px;
+    background-color: rgb(255, 255, 255);
+}
+.tituloequipo{
+    color: rgba(0, 187, 84, 0.911);
 }
 .contequipo{
     width: 450px;
@@ -204,10 +220,12 @@
         width: 30px;
         height: 30px;
     }
+    /**aca comienza BLOG**/
 .blog{
     width: 1024px;
     height: 450px;
     text-align: center;
+    background-image: url(/img/fondo2.jpg);
 }
 .pecasld{
     width: 50px;
@@ -239,15 +257,21 @@
     display: inline-block;
 }
 .redes-sociales{
-    width: auto;
+    width: 1024px;
     height: 250px;
     text-align: center;
+    background-color: grey;
+    display: inline-block;
 }
 .red{
     width: 200px;
     height: 200px;
     display: inline-block;
+    margin-top: 25px;
     vertical-align: top;
+    border: solid 1px white;
+    
+    
 }
 .icofix{
     width: 98px;
@@ -264,23 +288,25 @@
 .footer{
     width: 1024px;
     height: 100px;
+
     
 }
 .nombre{
-        width: 360px;
-        height: 100px;
+        width: 500px;
+        height: 55px;
         display: inline-block;
         vertical-align: top;
         margin-top: 30px;
-        margin-right: 30px;
-        margin-left: 30px;
+       
 }
 .alineizq{
     text-align: left;
+    margin-left: 100px;
     
 }
 .alineder{
     text-align: right;
+    margin-right: 80px;
     
     
 }
