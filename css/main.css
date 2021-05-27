@@ -160,9 +160,7 @@
     height: 820px;
     background-color: rgb(126, 172, 126);
 }
-    
 /**esta clase titulocentro la uso en varias otras no editar sin revisar**/
-
 .titulocentro{
     text-align: center;
     margin-top: 50px;
@@ -229,10 +227,6 @@
     height: 450px;
     text-align: center;
     background-image: url("/img/fondo2.jpg");
-    object-fit: cover
-}
-.blogfondo{
-    background-image: ;
 }
 .pecasld{
     width: 50px;
@@ -252,15 +246,15 @@
     text-align: left;
     margin-left: 30px;
     margin-right: 30px;
+    vertical-align: top;
     
 }
 .imgposteo{
     width: 230px;
     height: 150px;
-    background-image: url('/img/fotos/img-0400.JPG');
-    background-size: cover;
-    background-position: center;
     display: inline-block;
+    
+    
 }
 /**aca comienzan las REDES SOCIALES**/
 .redes-sociales{
