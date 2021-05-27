@@ -4,7 +4,7 @@
  padding: 0px auto;
 }
 .fondo{
-    width: 1200px;
+    width: 1300px;
     height: 4400px;
     background-color: rgb(224, 231, 231);
 }
@@ -41,9 +41,8 @@
 .mainbanner{
     width: 1024px;
     height: 350px;
-    background-image: url('/img/semilla.jpg');
-    background-size: cover;
-    background-position: center;    
+    object-fit:cover;
+    
 }
 .mensaje1{
     width: 1024px;
@@ -140,6 +139,7 @@
     height: 720px;
     display: inline-block;
     text-align: center;
+    vertical-align: top;
 }
 .logos{
     margin-right: 20px;
@@ -149,10 +149,13 @@
     width: 300px;
     height: 300px;
     display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
 }
 /**aca comienza PROYECTOS**/
 .proyectos{
-    margin-top: 40px;
+    padding-top: 25px;
+    margin-top: 0px;
     width: 1024px;
     height: 820px;
     background-color: rgb(126, 172, 126);
@@ -225,14 +228,17 @@
     width: 1024px;
     height: 450px;
     text-align: center;
-    background-image: url(/img/fondo2.jpg);
+    background-image: url("/img/fondo2.jpg");
+    object-fit: cover
+}
+.blogfondo{
+    background-image: ;
 }
 .pecasld{
     width: 50px;
     height: 355px;
     vertical-align: top;
     display: inline-block;
-    
 }
     .pecasld img{
         width: 40px;
@@ -256,6 +262,7 @@
     background-position: center;
     display: inline-block;
 }
+/**aca comienzan las REDES SOCIALES**/
 .redes-sociales{
     width: 1024px;
     height: 250px;
@@ -269,22 +276,28 @@
     display: inline-block;
     margin-top: 25px;
     vertical-align: top;
+    text-align: left;
     border: solid 1px white;
-    
-    
 }
 .icofix{
-    width: 98px;
-    height: auto;
+    width: 40px;
+    height: 40;
     display: inline-block;
     vertical-align: middle;
+    color: white;
+    
 }
-    .red img{
+.red img{
     width: 40px;
     display: inline-block;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-left: 80px;
+    
 }
+.red p{
+    margin-left: 20px;
+}
+/**aca comienza el FOOTER**/
 .footer{
     width: 1024px;
     height: 100px;
@@ -297,16 +310,16 @@
         display: inline-block;
         vertical-align: top;
         margin-top: 30px;
-       
 }
 .alineizq{
     text-align: left;
     margin-left: 100px;
-    
 }
 .alineder{
     text-align: right;
     margin-right: 80px;
-    
-    
+}
+.alineizq a{
+    color: rgb(255, 136, 0);
+    text-decoration: none;
 }
