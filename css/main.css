@@ -1,7 +1,9 @@
-/* Inserta tu codigo aqui */
 *{
  margin: 0px auto;   
  padding: 0px auto;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
 }
 .fondo{
     width: 1300px;
@@ -31,7 +33,7 @@
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    }   
+}   
     .navbar li{
         display: inline-block;
         margin-top: 30px;
@@ -47,8 +49,10 @@
 .mensaje1{
     width: 1024px;
     height: 100px;
+    background-color: rgb(240, 241, 241);
 }
-    .mensaje1 p{
+    
+.mensaje1 p{
         text-align: center;
         padding: 25px;
 
@@ -82,9 +86,9 @@
     }
 .main{
     width: 1024px;
-    height: 355px;
+    height: 300px;
     display: inline-block;
-    background-color: white;
+    background-color: rgb(62, 156, 125);
     }
 .bannermain{
     width: 512px;
@@ -102,7 +106,7 @@
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    }
+}
     .textmain img{
         width: 40px;
         height: 40px;
@@ -122,7 +126,7 @@
     /** aca comienza SERVICIOS**/
 .bajocentro{
     width: 1024px;
-    height: 800px;
+    height: 850px;
     background-color: white;
 }
     .titulo1{
@@ -139,18 +143,17 @@
     height: 720px;
     display: inline-block;
     text-align: center;
-    vertical-align: top;
 }
 .logos{
-    margin-right: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
     text-align: center;
     width: 300px;
     height: 300px;
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 /**aca comienza PROYECTOS**/
 .proyectos{
@@ -224,13 +227,21 @@
     /**aca comienza BLOG**/
 .blog{
     width: 1024px;
-    height: 450px;
+    height: 500px;
     text-align: center;
+}
+    .blog h2{
+    padding-top: 25px;
+    }
+
+.fondoblog{
     background-image: url("/img/fondo2.jpg");
+    width: auto;
+    height: auto;
 }
 .pecasld{
     width: 50px;
-    height: 355px;
+    height: 500px;
     vertical-align: top;
     display: inline-block;
 }
@@ -246,15 +257,12 @@
     text-align: left;
     margin-left: 30px;
     margin-right: 30px;
-    vertical-align: top;
-    
+    margin-top: 25px;
 }
 .imgposteo{
     width: 230px;
     height: 150px;
     display: inline-block;
-    
-    
 }
 /**aca comienzan las REDES SOCIALES**/
 .redes-sociales{
@@ -295,8 +303,6 @@
 .footer{
     width: 1024px;
     height: 100px;
-
-    
 }
 .nombre{
         width: 500px;
@@ -315,5 +321,4 @@
 }
 .alineizq a{
     color: rgb(255, 136, 0);
-    text-decoration: none;
 }
