@@ -199,7 +199,7 @@ a:link, a:visited, a:active {
 /**aca comienza EQUIPO**/
 .equipo{
     width: 1024px;
-    height: 530px;
+    height: auto;
     background-color: rgb(255, 255, 255);
 }
 .tituloequipo{
@@ -224,7 +224,7 @@ a:link, a:visited, a:active {
         width: 30px;
         height: 30px;
     }
- /**aca comienza BLOG**/
+    /**aca comienza BLOG**/
 .blog{
     width: 1024px;
     height: 500px;
