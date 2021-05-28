@@ -236,8 +236,8 @@ a:link, a:visited, a:active {
 
 .fondoblog{
     background-image: url("/img/fondo2.jpg");
-    width: auto;
-    height: auto;
+    width: 1024px;
+    height: 500px;
 }
 .pecasld{
     width: 50px;
